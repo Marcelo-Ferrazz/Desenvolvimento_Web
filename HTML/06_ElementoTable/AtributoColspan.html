@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>Elemento table</title>
+</head>
+
+<body>
+    <header>
+        <h1> Exemplo atributo colspan</h1>
+    </header>
+
+    <article>
+        <table>
+            <caption>Vendas do ProdutoX</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">Vendas Trimestrais</th>
+                    <!-- colspan vai pega colunas no numero definido entre aspas -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">2010</th>
+                    <td>144.000</td>
+                </tr>
+                <tr>
+                    <td>179.580</td>
+                </tr>
+                <tr>
+                    <td>254.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <footer>
+        <small>&copy;Instituto da Oportunidade Social</small>
+    </footer>
+
+</body>
+
+</html>

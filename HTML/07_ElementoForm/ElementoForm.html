@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>Elemento Form</title>
+</head>
+
+<body>
+    <!-- estrutura de elemento form -->
+    <form action="dferrazz@hotmail.com">
+
+    </form>
+    <!-- method=get método rápido mas não  seguro -->
+    <!-- method=post método um pouco mais lento mas seguro -->
+    <form method="post" action="dferrazz@hotmail.com">
+        <input required />
+        <input type="password" required/>
+        <input type="submit" value="clique aqui" />
+
+        <!-- Valor checkbox do atributo Type-->
+        <p>escolha o estado que você quer mora</p>
+        <label for="Tex">Texas</label>
+        <input id="Tex" type="checkbox"><br>
+
+        <label for="cal">Califórnia</label>
+        <input id="cal" type="checkbox"><br>
+
+        <label for="NY">New york</label>
+        <input id="NY" type="checkbox">
+
+        <!-- valor Radio para o atributo type -->
+        <p>selecione A VACINA</p>
+        <label for="Meg">Megatron</label>
+        <input id="Meg" type="radio" name="tipo"><br>
+
+        <label for="Bom">Bombombi</label>
+        <input id="Bom" type="radio" name="tipo"><br>
+
+        <label for="bero">Bombeiro</label>
+        <input id="bero" type="radio" name="tipo">
+        <br>
+
+        <!-- Elemento select, datalist e option -->
+        <p>Escolha o seu pão</p>
+        <label for="pão">Escolha o seu pão</label>
+        <select name="pão" id="pão">
+            <option value="for">Forma</option>
+            <option value="fra">Francês</option>
+            <option value="bro">Bronha</option>
+            <option value="bag">Baguete</option>
+        </select>
+
+        <p>Escolha seu time</p>
+        <label for="times">Escolha seu time</label>
+        <input autocomplete="on" list="time" name="times" id="times">
+        <datalist id="time">
+            <option value="Penapolence">Penapolence</option>
+            <option value="Portuguesa">Portuguesa</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Chapecoence">Chapecoence</option>
+            <option value="Piaui">Piaui</option>
+        </datalist>
+    </form>
+</body>
+
+</html>
