@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: aquamarine;
+}
+
+.pipoca {
+    color: blueviolet;
+}

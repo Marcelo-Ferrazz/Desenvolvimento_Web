@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+    background-color: cornflowerblue;
+}
+/* * sobrepoem a body, altera a pagina toda */
+
+section {
+    color: brown;
+}
+/* não esquecer do espaço depois da section */
+section .cinema {
+    color: blueviolet;
+}
+
+article h4 {
+    text-align: center;
+    border: 3px solid goldenrod;
+    font-size: 26px;
+}
