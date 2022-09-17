@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+p{
+    color: rgb(5, 215, 252);
+    font-weight: bolder;
+}
+
+.ex1 {
+    display: none;
+}
+.ex2{
+    display: inline;
+}
+.ex3 {
+    display: block;
+}
+.ex4{
+    display: inline-block;
+}
