@@ -73,12 +73,12 @@ console.log(resultado)
 console.clear();
 let result = Math.PI < 4 ? console.log('Sim') : console.log('Não');
 
-Math.PI; // retorna 3.141592653589793
-Math.E // retorna o número de Euler
-Math.SQRT2 // retorna a raiz quadrada de 2
-Math.SQRT1_2 // retorna a raiz quadrada de 1/2
-Math.LN2 // retorna o logaritmo natural de 2
-Math.LN10 // retorna o logaritmo natural de 10
+// Math.PI; // retorna 3.141592653589793
+// Math.E // retorna o número de Euler
+// Math.SQRT2 // retorna a raiz quadrada de 2
+// Math.SQRT1_2 // retorna a raiz quadrada de 1/2
+// Math.LN2 // retorna o logaritmo natural de 2
+// Math.LN10 // retorna o logaritmo natural de 10
 
 // switch (expressão) {
 //     case valor1:
