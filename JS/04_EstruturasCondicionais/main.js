@@ -53,9 +53,9 @@ else {
 
 // Desvios encadeados
 console.clear();
-const num = 'Ola';
-if (num % 2 == 0 && !isNaN(num)) console.log('Número par!');
-else if (num % 2 != 0 && !isNaN(num)) console.log('Número ímpar');
+const nume = 'Ola';
+if (nume % 2 == 0 && !isNaN(nume)) console.log('Número par!');
+else if (nume % 2 != 0 && !isNaN(nume)) console.log('Número ímpar');
 else console.log('Não é um número!');
 
 // Desvios encadeados
@@ -80,21 +80,21 @@ Math.SQRT1_2 // retorna a raiz quadrada de 1/2
 Math.LN2 // retorna o logaritmo natural de 2
 Math.LN10 // retorna o logaritmo natural de 10
 
-switch (expressão) {
-    case valor1:
-    //Instruções executadas quando o resultado da expressão for igual á valor1
-    [break;]
-    case valor2:
-    //Instruções executadas quando o resultado da expressão for igual á valor2
-    [break;]
-    ...
-    case valueN:
-    //Instruções executadas quando o resultado da expressão for igual á valorN
-    [break;]
-    default:
-    //Instruções executadas quando o valor da expressão é diferente de todos os cases
-    [break;]
-    }
+// switch (expressão) {
+//     case valor1:
+//     //Instruções executadas quando o resultado da expressão for igual á valor1
+//     [break;]
+//     case valor2:
+//     //Instruções executadas quando o resultado da expressão for igual á valor2
+//     [break;]
+//     ...
+//     case valueN:
+//     //Instruções executadas quando o resultado da expressão for igual á valorN
+//     [break;]
+//     default:
+//     //Instruções executadas quando o valor da expressão é diferente de todos os cases
+//     [break;]
+//     }
 
 // Switch
 const h = 11;
