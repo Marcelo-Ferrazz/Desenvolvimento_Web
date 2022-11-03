@@ -9,6 +9,11 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Aula Bootstrap</title>
 </head>
+<style>
+    .carousel-inner {
+        margin: auto;
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-primary">
@@ -62,28 +67,28 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner bg-secondary">
             <div class="carousel-item active">
                 <img src="https://streamingsbrasil.com/wp-content/uploads/2022/01/Brooklyn-99-Temp-9-Thumbnail.jpg"
-                    class="d-block w-100" style="height: 90%;" alt="...">
+                    class="d-block w-50" style="height: 50%; margin-left: 25%;" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://loggado.com/wp-content/uploads/2017/08/marlon.jpg" class="d-block w-100"
-                    style="height: 90%;" alt="...">
+                <img src="https://loggado.com/wp-content/uploads/2017/08/marlon.jpg" class="d-block w-50"
+                    style="height: 50%; margin-left: 25%;" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2015/04/destaque28.jpg"
-                    class="d-block w-100" style="height: 90%;" alt="...">
+                <img src="https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2015/04/destaque28.jpg" class="d-block w-50"
+                    style="height: 50%; margin-left: 25%;" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
             <span class="visually-hidden">Next</span>
         </button>
     </div>
